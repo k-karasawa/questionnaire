@@ -11,7 +11,7 @@ import { RadioChangeEvent } from 'antd/lib/radio';
 
 const { TextArea } = Input;
 
-const radio: React.FC = () => {
+const RadioPages: React.FC = () => {
     const [value, setValue] = React.useState<Dayjs | null>(dayjs());
     const [radioValues, setRadioValues] = useState([null, null, null, null, null]);
   
@@ -76,4 +76,4 @@ const radio: React.FC = () => {
   )
 };
 
-export default radio;
+export default RadioPages;

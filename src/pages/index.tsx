@@ -20,7 +20,7 @@ const marks = {
 }
 
 
-const slider: React.FC = () => {
+const SliderPages: React.FC = () => {
     const [value, setValue] = React.useState<Dayjs | null>(dayjs());
   
     const showModal = () => {
@@ -81,4 +81,4 @@ const slider: React.FC = () => {
   )
 };
 
-export default slider;
+export default SliderPages;
